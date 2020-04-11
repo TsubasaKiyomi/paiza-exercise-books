@@ -14,10 +14,14 @@ elbowelbowelbow
 # 指定回数をループさせる。　指定回数は「３回」
 # いうべき単語は「elbowe」　出力例　「elbowelbowelbow」
 
-a = 3
-i = "elbow"
+# a = 3
+# b = "elbow"
+
+a = input()
+b = input()
+
 
 for elbows in range(1):
-    if i == 0:
+    if b == 0:
         break
-    print(i * int(a))
+    print(b * int(a))

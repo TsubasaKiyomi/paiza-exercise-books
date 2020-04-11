@@ -21,15 +21,25 @@ Paiza
 """
 
 
-title_name = "paizapaizapaiza"
+# title_name = "PaizaPaizaPaiza"
 
 
-def cut_off_title():
-    cut_off = title_name
-    return cut_off
+# def cut_off_title():
+#     cut_off = title_name
+#     return cut_off
 
 
-result = cut_off_title()
-# \nでのやり方が分からなかったのでリストにして文字数を取得した。
-print(result[0:10])
-print(result[10:])
+# result = cut_off_title()
+# int(result).enplace("paizapaiza", "\npaiza")
+# # \nでのやり方が分からなかったのでリストにして文字数を取得した。
+# print(result)
+# # print(result[10:])
+# input_line = input()
+# input = "PaizaPaizaPaiza"
+input_line = "PaizaPaizaPaiza"
+
+while(10 < len(input_line)):
+    print(input_line[:10])
+    input_line = input_line[10:]
+
+print(input_line)
