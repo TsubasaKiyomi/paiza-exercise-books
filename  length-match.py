@@ -23,8 +23,13 @@ Yes
 # x = "Paiza"
 # y = "Pizza"
 
+# x = "Coding"
+# y = "Programming"
+
 x = input()
 y = input()
 
-if len(x) and len(y) == 5:
+if len(x) == len(y):
     print("Yes")
+elif len(x) != len(y):
+    print("No")
